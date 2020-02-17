@@ -184,20 +184,18 @@ class Game(arcade.Window):
     
     def on_key_press(self, key, modifiers):
         """Called whenever a key is pressed. """
-        if key != self.last_move:
-            if key == arcade.key.UP:
-                self.move_top()
-                self.add_element()
-            elif key == arcade.key.DOWN:
-                self.move_bottom()
-                self.add_element()
-            elif key == arcade.key.LEFT:
-                self.move_left()
-                self.add_element()
-            elif key == arcade.key.RIGHT:
-                self.move_right()
-                self.add_element()
-            self.last_move = key 
+        if key == arcade.key.UP:
+            self.move_top()
+            self.add_element()
+        elif key == arcade.key.DOWN:
+            self.move_bottom()
+            self.add_element()
+        elif key == arcade.key.LEFT:
+            self.move_left()
+            self.add_element()
+        elif key == arcade.key.RIGHT:
+            self.move_right()
+            self.add_element()
 
 
     def on_draw(self):
