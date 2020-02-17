@@ -1,7 +1,7 @@
 # 2048_game
 2048 Game in Python
 
-![Screenshot](images/screenshot.png)
+<img src="images/screenshot.png" width="60%">
 
 ### Requirements 
 ```
