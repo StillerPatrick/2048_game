@@ -1,12 +1,14 @@
 # 2048_game
 2048 Game in Python
 
-Requirements 
+![Screenshot](images/screenshot.png)
+
+### Requirements 
 ```
 arcade==2.1.3
 ```
 
-Installation 
+### Installation 
 
 ```
 git clone  https://github.com/StillerPatrick/2048_game.git
