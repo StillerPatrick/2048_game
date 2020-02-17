@@ -2,9 +2,9 @@
 2048 Game in Python
 
 Requirements 
-´´´
+'''
 arcade==2.1.3
-´´´
+'''
 
 Installation 
 
